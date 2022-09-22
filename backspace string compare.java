@@ -1,4 +1,4 @@
-public boolean compareString(String s1, String s2) {
+public static int compareString(String s1, String s2) {
         if(sb(s1).equals(sb(s2))){
           retrun 1;
         else
