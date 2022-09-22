@@ -1,11 +1,12 @@
 public boolean compareString(String s1, String s2) {
         if(sb(s1).equals(sb(s2))){
           retrun 1;
+        else
         return 0;
 }
     }
     
-    private String sb(String str) {
+    static String sb(String str) {
         StringBuilder sbr = new StringBuilder();
         
         for (char c : str.toCharArray()) {
